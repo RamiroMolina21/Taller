@@ -1,0 +1,25 @@
+.divLabels,
+.divInputs {
+    width: 50%;
+}
+
+.divInputs{
+    margin: 0%;
+}
+
+label{
+display: block;
+}
+
+form{
+    max-width:500px;
+}
+
+label{
+    margin: 3px;
+}
+
+.divPrimero{
+    text-align: center;
+}
+

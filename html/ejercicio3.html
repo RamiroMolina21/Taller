@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 2</title>
+    <link rel="stylesheet" href="../css/styleEjecicio3.css">
+
+</head>
+<body>
+    <div class="divMain">
+        <form action="">
+            <img src="../recursos/imagenes/imagen3.jpg" alt="" width="100%">
+            <div class="divPrimero">
+                <input type="radio">Mr.
+                <input type="radio">Mrs.
+                <input type="radio">Ms.
+            </div>
+           
+            <div class="" style="display: flex;">
+            <div class="divLabels">
+                <label for="primerNombre">First Name</label>
+                <label for="apellido">Last Name</label>
+                <label for="email">Email</label>
+                <label for="address">Address</label>
+                <label for="ciudad">City</label>
+                <label for="estado">State</label>
+                <label for="codeZip">Zip</label>
+                <label for="photo">Upload Photo</label>
+            </div>
+            <div class="divInputs">
+                <input type="text" id="primerNombre" placeholder="First Name" pattern="^(Mr|Ms|Mrs)\s{1,2}\w+s">
+                <input type="text" id="apellido" placeholder="Last Name" pattern="^(Mr|Ms|Mrs)\s{1,2,3}\w+s">
+                <input type="email" id="email" pattern="^.+cecar.edu.co" >
+                <input type="text" id="address" pattern="{0,100}" >
+                <input type="text" id="ciudad">
+                <input list="estados" name="estado" id="estado" value="Gujarat">
+                <datalist id="estados">
+                    <option value="">
+                    <option value="Arkansas">
+                    <option value="Colorado">
+                    <option value="Columbia">
+                    <option value="Ohio">
+                </datalist>
+                <input type="text" id="codeZip">
+                <input type="file" id="photo">
+            </div>
+            </div>
+            
+                 <input type="submit" value="Enviar" style="margin-left: 200px; margin-top: 20px;" > 
+        </form>
+    </div>
+</body>
+
+</html>

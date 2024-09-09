@@ -1,0 +1,111 @@
+nav {
+    text-align: center;
+    width: 100%;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divNav {
+    display: flex;
+    background-color: #333333;
+    width: 100%;
+}
+
+a {
+    color: #797979;
+    margin-right: 60px;
+    text-decoration: none;
+}
+
+.divArticleLeft {
+    width: 65%;
+    display: flex;
+    margin-top: 4px;
+    border: 3px solid;
+}
+
+h1{
+    margin-top: 10px;
+}
+
+.primerP {
+    margin-top: -15px;
+}
+
+.flexContainer{
+    display: flex; 
+}
+
+.divAside{
+    margin-left: 10px;
+    border: 3px solid;  
+}
+
+.divHotItems{
+    margin-top: -12px;
+    background-color: #797979;
+    height: 180px;
+    margin-left: 5px;
+}
+
+li{
+    margin: 20px;
+    margin-left: -10px;
+}
+
+li::marker{
+    content: "- ";
+}
+
+.divNewItems{
+    margin-top: -12px;
+    background-color: #797979;
+    height: 240px;
+    margin-left: 5px; 
+}
+
+.divSection{
+    width: 100%;
+    border: 3px solid;
+    margin-top: 10px;
+    display: flex;
+    
+  
+}
+.divInTheSpot{
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 3px solid;
+}
+.divCajitaDos{
+    border: 3px solid;
+    margin-top: 10px;
+    margin-left: 5px;
+
+    
+}
+.divCajitaTres{
+    border: 3px solid;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
+footer>nav>a{
+    width: 100%;
+    color: aliceblue;
+}
+
+.divFooter{
+    background-color: #797979;
+}
+
+footer>nav{
+    padding: 10px; 
+}
+
+
+
